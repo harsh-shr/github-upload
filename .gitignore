@@ -1,0 +1,24 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary with 'go test -c'
+*.text
+
+#Out of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+
+# Ignore model files that are auto-generated
+ModelIndex.xml
+ExportedFiles.xml
+
+# Ignore deployment files
+[Mm]odel/[Dd]eployment
+
+# Force include portal SupportFiles
+!Model/Portal/*/SupportFiles/[Bb]in/
+!Model/Portal/PortalTemplates/*/SupportFiles/[Bb]in
